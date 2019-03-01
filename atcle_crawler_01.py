@@ -15,6 +15,6 @@ if __name__=='__main__':
     article=article_tag[0].get_text()               #这样可以取得文本
 
     #文件写入
-    fp = open('article.txt','w')                    #存在则写入，不存在先创建一个
+    fp = open('article.txt','w')                    #不存在先创建一个，存在则写入
     fp.write(article)
     fp.close()
