@@ -6,7 +6,7 @@ import time
 import random
 
 #这个是可以获取多个页面的版本，实际不太行——会被封ip
-target=('https://e-hentai.org/g/1373291/f433228872/')
+target=('https:***************************')
 req=requests.get(url=target)                #获取html
 html=req.text
 bfsp=BeautifulSoup(html,'html.parser')
