@@ -4,7 +4,7 @@ import requests
 import urllib.request
 
 #最简单的爬一张图片，不涉及翻页
-target=('https://e-hentai.org/s/e56538dbed/1373291-2')
+target=('https:********************************************')
 req=requests.get(url=target)                #获取html
 html=req.text
 #处理数据
